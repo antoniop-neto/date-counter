@@ -13,6 +13,7 @@ function Counter() {
   const [step, setStep] = useState(1);
   const [count, setCount] = useState(0);
 
+  // adding days to date
   const date = new Date();
   date.setDate(date.getDate() + count);
 
@@ -37,6 +38,7 @@ function Counter() {
           +
         </button>
       </div>
+
       <span>{count === 0 ? "Today is " : ""}</span>
       <span>{count > 0 ? `${count} days from today is ` : ""}</span>
       <span>{count < 0 ? `${Math.abs(count)} days ago was ` : ""}</span>
