@@ -27,7 +27,21 @@ code {
 }
 
 .button {
-  font-size: 20px;
+  font-size: 30px;
   width: 35px;
   margin: 4px;
+}
+.text-input {
+  font-size: 30px;
+  width: 200px;
+}
+
+.reset-button {
+  font-size: 20px;
+  width: fit-content;
+  margin: 4px;
+}
+
+.hidden {
+  display: none;
 }
